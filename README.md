@@ -7,11 +7,18 @@ This turn-based game simulates navigating a minefield with obstacles, where the 
 - Victory and defeat conditions based on energy level and mine collision.
 - Encapsulated in the `TerrainSpace` namespace.
 
+## How to Win 
+- Reach the rigth most coloumn without depleteing your energy or hitting a mine
+
+## How to lose 
+- Deplete your energy without reaching the required coloumn
+- Hit a mine 
+
 ## How to Run
-1. Clone the repository: `git clone https://github.com/yourusername/DangerousTerrainGame.git`
-2. Navigate to the directory: `cd DangerousTerrainGame`
-3. Compile the program: `g++ main.cpp -o DangerousTerrainGame`
-4. Run the program: `./DangerousTerrainGame`
+1. Clone the repository: `git clone https://github.com/yourusername/Dangerous-Terrain-Game.git`
+2. Navigate to the directory: `cd Dangerous-Terrain-Game`
+3. Compile the program: `g++ *.cpp -o <numRows> <numCols> <numObstacles> <numMines> <numEnergy> Dangerous-Terrain-Game `
+4. Run the program: `./Dangerous-Terrain-Game`
 
 ## Future Improvements
 - Add difficulty levels with adjustable mine density.
